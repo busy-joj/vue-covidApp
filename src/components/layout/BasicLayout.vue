@@ -33,7 +33,7 @@ export default {
 
 <style>
 .el-header{
-    background:#4092ff;color:#fff;display:flex;justify-content:center;align-items:center;
+    background:#4bb480bb;color:#fff;display:flex;justify-content:center;align-items:center;
 }
 .main{height:100%;}
 </style>
