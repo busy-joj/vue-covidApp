@@ -2,8 +2,8 @@
     <el-container class="main">
         <el-header><BasicHeader/></el-header>
         <el-container>
-            <el-aside :width="menuWidth"><SideMenu :isCollapse="isCollapse"/></el-aside>
-            <el-main>Main</el-main>
+            <el-aside :width="menuWidth"><SideMenu :isCollapse="isCollapse" @menuSelect="(item)=>{$emit('menuSelect',item)}"/></el-aside>
+            <el-main><slot></slot></el-main>
         </el-container>
     </el-container>
 </template>
