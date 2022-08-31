@@ -10,8 +10,10 @@
   "dependencies": {
     "@element-plus/icons": "^0.0.11",
     "axios": "^0.27.2",
+    "chart.js": "^3.9.1",
     "core-js": "^3.8.3",
     "element-plus": "^2.2.13",
+    "moment": "^2.29.4",
     "vue": "^3.2.13"
   },
   "devDependencies": {
